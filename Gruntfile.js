@@ -33,10 +33,11 @@ module.exports = function(grunt) {
       dist: {
         files: {
           'assets/js/scripts.min.js': [
-            'assets/js/vendor/jquery-1.8.3.min.js',
+            'assets/js/vendor/jquery-2.0.3.min.js',
             'assets/js/vendor/bootstrap.min.js',
             'assets/js/vendor/html5shiv.js',
             'assets/js/vendor/respond.min.js',
+            'assets/js/vendor/jquery-ui-1.10.3.custom.min.js',
             'assets/js/_*.js'
           ]
         },
